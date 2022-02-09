@@ -1,7 +1,7 @@
 <?php
 /**
- * User: S. Tudent
- * Date: Date
+ * User: Tara van Litsenburg
+ * Date: 9-02-2021
  * File: T3_REA_Oefening1.1.php
  */
 ?>
