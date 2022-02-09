@@ -24,11 +24,12 @@
                 height: 100vh;
                 width: 100vw;
                 position: absolute;
+                background-color: lightcoral;
             }
 
             header
             {
-                background-color: aliceblue;
+                background-color: lightpink;
                 text-align: center;
                 height: 15%;
                 padding-top: 15px;
@@ -37,10 +38,11 @@
 
             main
             {
-                background-color: beige;
+                background-color: hotpink;
                 height: 10%;
                 padding: 15px;
                 position: relative;
+                text-align:center;
             }
         </style>
     </head>
