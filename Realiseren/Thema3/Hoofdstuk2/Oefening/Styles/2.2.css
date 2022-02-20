@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+header
+{
+    background-color: royalblue;
+    text-align: center;
+    height: 15%;
+    padding-top: 15px;
+    position: relative;
+}
+main div
+{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+ nav
+{
+    background-color: lightskyblue;
+    width: 25%;
+    float: left;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+main section
+{
+    background-color: deepskyblue;
+    height: 100%;
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+img
+{
+    Width: 300px;
+    height:200px;
+}
+span
+{
+    font-weight: bold;
+}
