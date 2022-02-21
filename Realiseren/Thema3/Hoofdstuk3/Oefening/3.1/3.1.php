@@ -1,8 +1,8 @@
 <?php
 /**
  * User: Tara van Litsenburg
- * Date: 16-02-2021
- * File: T3_REA_Oefening2.1.php
+ * Date: 21-02-2021
+ * File: T3_REA_Oefening3.1.php
  */
 ?>
 <!DOCTYPE html>
@@ -15,6 +15,7 @@
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link naar de stylesheet-->
         <link href="Styles/3.1.css" rel="stylesheet">
     </head>
     <body>
@@ -49,12 +50,16 @@
                     <?php
                         // Voorbeeldcode
                         //Variabelen
+                        //Carnaval
                         $volksfeest = "Carnaval";
+                        //Dagen waarop carnaval word gevierd
                         $dagen = "Zondag, Maandag, Dinsdag";
                         $drieDagen = "3";
                         $viertigdagen = "40";
                         $provincie = "Noord-Brabant";
+                        //Land waar carnaval word gehouden
                         $land = "Nederland";
+                        //Brabantse Koffietafel
                         $eten = "Worstenbroodje, Koffie Schrobbeler";
 
                         $story = "$volksfeest is van oorsprong een gekerstend heidens volksfeest. Het duurt 
@@ -67,16 +72,17 @@
                         $eten soms met een Brabantse koffietafel.";
 
                         echo "<p>$story</p>";
-
+                        // 3 bonnen met prijzen
                         $bon1 = 60;
                         $bon2 = 55;
                         $bon3 = 40;
+                        //Het totaalbedrag val alle bonnen bij elkaar
                         $totaalbedrag = ($bon1 + $bon2 + $bon3);
                         echo "Het totaalbedrag is $totaalbedrag<br>";
-
+                        //Prijs per persoon
                         $perPersoon = ($totaalbedrag/4);
                         echo "De kosten per persoon bedragen $perPersoon euro";
-
+                        //totaalbedrag + de fooi en - de korting
                         $fooi = ($totaalbedrag / 100 * 10 + $totaalbedrag - 50)/4;
                         echo "<br>Het totale bedrag min de korting en plus de fooi is $fooi euro per persoon";
                     ?>
