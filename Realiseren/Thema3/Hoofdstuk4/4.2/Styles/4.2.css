@@ -1,0 +1,51 @@
+/*
+ * Naam: Tara van Litsenburg
+ * Klas: IO1C4
+ * Datum: 12-03-2022
+*/
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    color: white;
+}
+
+header
+{
+    background-color: darkred;
+    text-align: center;
+    height: 15%;
+    padding-top: 15px;
+    position: relative;
+}
+
+
+nav
+{
+    background-color: crimson;
+    width: 25%;
+    float: left;
+    height: 60%;
+    box-sizing: border-box;
+}
+
+ul, h2
+{
+    margin-left: 25px;
+}
+div
+{
+    background-color:white;
+    width: 75%;
+    float: left;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 25px;
+    color: darkred;
+}
+
+
