@@ -6,6 +6,7 @@
 */
 ?>
 <!DOCTYPE html>
+<html lang="nl">
     <head>
         <title>
             <?php
@@ -33,9 +34,9 @@
 
                 <ul>
                     <li><h3>Hoofdstuk 2:</h3></li>
-                        <ul><li><a href="/Realiseren/Thema3/Hoofdstuk1/Oefening/T3_REA_Oefening1.1.php">Oefening 1.1</a></li>
+                        <li><a href="/Realiseren/Thema3/Hoofdstuk1/Oefening/T3_REA_Oefening1.1.php">Oefening 1.1</a></li>
                         <li><a href="../Instructie/instructie.php">Oefening 1.2</a></li>
-                    </ul>
+
                 </ul>
             </nav>
             <section>
@@ -43,7 +44,7 @@
                     Uitwerking oefening 2.2
                 </h2>
                 <?php
-                echo "<img src='Images/QueenElisabeth.jpg'>";
+                echo "<img src='Images/QueenElisabeth.jpg' alt = 'Queen Elisabeth'>";
                 ?>
                 <!-- Plaats je code / uitwerking hieronder -->
                 <p>
@@ -62,7 +63,7 @@
                     ?>
                 <div>
                     <?php
-                        echo "<img src='Images/QueenElisabeth.jpg'> <br> <h2>Britse koningin Elizabeth (95) is besmet met coronavirus, maar blijft werken</h2><p><span>De Britse koningin Elizabeth II is besmet geraakt met het coronavirus, meldt Buckingham Palace zondag. De vorstin heeft milde symptomen en kan haar werkzaamheden blijven uitvoeren.
+                        echo "<img src='Images/QueenElisabeth.jpg' alt = 'Queen Elisabeth'> <br> <h2>Britse koningin Elizabeth (95) is besmet met coronavirus, maar blijft werken</h2><p><span>De Britse koningin Elizabeth II is besmet geraakt met het coronavirus, meldt Buckingham Palace zondag. De vorstin heeft milde symptomen en kan haar werkzaamheden blijven uitvoeren.
                                  De Britse koningin is volledig gevaccineerd tegen COVID-19.</span> 
                                  <br>
                                  <br>
@@ -72,7 +73,7 @@
 
                     ?>
                 </div>
-                </p>
+
             </section>
         </main>
     </body>

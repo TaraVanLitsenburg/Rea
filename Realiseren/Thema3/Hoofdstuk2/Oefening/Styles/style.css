@@ -40,3 +40,11 @@ main section
     box-sizing: border-box;
     padding: 25px;
 }
+footer
+{
+
+    text-align: center;
+    background-color: darkcyan;
+    height: 80%;
+    font-size: 30px;
+}

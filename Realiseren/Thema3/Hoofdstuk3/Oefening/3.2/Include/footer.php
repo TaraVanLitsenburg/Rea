@@ -5,11 +5,10 @@
  * File: Footer.php
 */
 ?>
-
 <footer>
-    <?php
-        include "Include/variabelen.php";
-    ?>
+        <?php
+            include "Realiseren/Thema3/Hoofdstuk3/Oefening/3.2/Include/variabelen.php";
+        ?>
 </footer>
 
 

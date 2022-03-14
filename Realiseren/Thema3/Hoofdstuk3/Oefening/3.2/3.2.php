@@ -47,7 +47,9 @@
         </p>
     </section>
 
+
         <?php
+        //De footer word via een include in de webpagina gezet.
             include "Include/footer.php";
         ?>
 

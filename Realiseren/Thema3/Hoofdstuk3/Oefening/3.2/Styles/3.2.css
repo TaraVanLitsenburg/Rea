@@ -44,13 +44,13 @@ main section
     float: right;
     width: 75%;
     box-sizing: border-box;
-    padding: 25px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 footer
 {
-    vertical-align: middle;
+
     text-align: center;
     background-color: darkcyan;
-    padding: 45px;
+    height: 80%;
+    font-size: 30px;
 }
