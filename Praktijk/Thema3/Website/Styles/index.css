@@ -4,8 +4,11 @@
   Datum: 22-02-2022
   File: index.css
  */
-
 body
 {
-    background-image: url("../Images/RespectGymAfbeelding.png");
+    margin: 0px;
+    padding: 0px;
 }
+
+/*Navigatie css codes */
+
