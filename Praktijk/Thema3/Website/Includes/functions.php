@@ -5,11 +5,11 @@
  * file: functions.php
 */
 ?>
-<link href="/Praktijk/Thema3/Website/Styles/nav.css" rel="stylesheet" type="text/css">
+<link href="../../Website/Styles/index.css"  type="text/css">
         <nav>
             <ul>
                 <li
-                <li><img id = "logo" src="Images/logo.png" alt = "Logo"></li>
+                <li><img id = "logo" src="/Praktijk/Thema3/Website/Images/logo.png" alt = "Logo"></li>
                 <li><a href="/Praktijk/Thema3/Website/index.php">Home</a></li>
                 <li><a href="/Praktijk/Thema3/Website/Pages/sport.php">Sport</a></li>
                 <li><a href="/Praktijk/Thema3/Website/Pages/lesrooster.php">Lesrooster</a></li>

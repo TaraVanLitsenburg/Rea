@@ -11,4 +11,31 @@ body
 }
 
 /*Navigatie css codes */
+#logo
+{
+    width: 75px;
+    height: 75px;
+}
+ul
+{
+    background-color: black;
+    padding-bottom: 85px;
+    margin: 0px;
+    object-position: center;
+}
+li
+{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 40px;
+    background-color: #f76b00;
 
+}
+a
+{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
