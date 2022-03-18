@@ -27,13 +27,13 @@
                 <p>Lorem ipsum...</p>
             </div>
 
-            <button class="accordion">Section 2</button>
-            <div class="panel">
+            <button class="faq">Vraag 2</button>
+            <div class="answers">
                 <p>Lorem ipsum...</p>
             </div>
 
-            <button class="accordion">Section 3</button>
-            <div class="panel">
+            <button class="faq">Vraag 3</button>
+            <div class="answers">
                 <p>Lorem ipsum...</p>
             </div>
         </section>
