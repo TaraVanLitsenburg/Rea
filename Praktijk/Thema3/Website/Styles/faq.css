@@ -1,9 +1,8 @@
 /*
-Naam: Tara van Litsenburg
-Datum: 17-03-2022
-File: index.css
+    Naam: Tara van Litsenburg
+    Datum: 18-03-2022
+    file: faq.css
 */
-
 /*Lettertype*/
 @font-face {
     font-family: RespectGym;
@@ -14,10 +13,9 @@ File: index.css
     font-family: RespectGym;
 }
 
+
 body
 {
-    /*Achtergrond kleur is de kleur van de website*/
-    background-color: #333333;
     margin: 0px;
 }
 a
@@ -64,12 +62,3 @@ nav
     float: left;
     position: absolute;
 }
-/*Index afbeelding*/
-#index, #sport, #lesrooster, #personaltrainer, #overons, #lidworden, #zakelijk, #contact
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    height: auto;
-}
-

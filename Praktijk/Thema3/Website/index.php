@@ -5,14 +5,23 @@
  * File: index.php
 */
 
-    include "../../Thema3/Website/Includes/functions.php";
 ?>
 <html lang="nl">
     <head>
         <title>
             Respect Gym
         </title>
-        <link href="Styles/nav.css" type="text/css">
+        <link href="Styles/index.css"  rel="stylesheet">
+
     </head>
+    <body>
+        <nav>
+            <img id="logo" src="Images/logo.png">
+            <?php
+            include "../../Thema3/Website/Includes/functions.php";
+            ?>
+        </nav>
+        <img id= "index" src="Images/index.png" alt="Index Fotos">
+    </body>
 </html>
 
