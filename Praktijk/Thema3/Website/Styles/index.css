@@ -5,7 +5,8 @@ File: index.css
 */
 
 /*Lettertype*/
-@font-face {
+@font-face
+{
     font-family: RespectGym;
     src: url("../Fonts/mem9YaCnxnKRiYZOCIYScrg.woff2");
 }
@@ -18,45 +19,54 @@ body
 {
     /*Achtergrond kleur is de kleur van de website*/
     background-color: #333333;
-    margin: 0px;
+    margin:0px;
 }
+
 a
 {
     /*Decoratie bij de lijst is weg*/
     text-decoration: none;
     /*Tekstkleur is wit*/
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
+
 a:hover
 {
+    /*Achtergrondkleur als je over het menuitem heen gaat*/
     background-color: #f47e3c;
-    padding: 10px;
-
+    /*De grootte van de achtergrond kleur als je met je muis over de tekst heen gaat*/
+    padding: 6px;
 }
+
 li
 {
     list-style-type: none;
     text-align: center;
+    /*Ruimte tussen de tekst*/
     padding: 13px;
     object-position: center;
     float:left;
+    /*breedte van de menu items*/
     width: 9%;
-
 }
+
 ul
 {
     padding-bottom: 65px;
-    margin: 0px;
     object-position: center;
     padding-left: 80px;
 }
+
 nav
 {
     object-position: center;
+    /*Achtergrondkleur is zwart*/
     background-color: black;
-    padding: 20px;
+    padding: 4px;
+    height: 80px;
 }
+
 #logo
 {
     width: 75px;
@@ -64,12 +74,13 @@ nav
     float: left;
     position: absolute;
 }
+
 /*Index afbeelding*/
 #index, #sport, #lesrooster, #personaltrainer, #overons, #lidworden, #zakelijk, #contact
 {
+    /*De afbeelding word verspreid over de pagina*/
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    /*De hoogte word automatisch aangepast aan de hoogte van de pagina*/
     height: auto;
 }
 

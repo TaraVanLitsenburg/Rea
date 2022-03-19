@@ -1,26 +1,30 @@
 <?php
 /*
  * Naam: Tara van Litsenburg
- * Datum: 13-03-2022
- * File: index.php
+ * Datum: 19-03-2022
+ * File: contact.php
 */
 
 ?>
 <html lang="nl">
-<head>
-    <title>
-        Respect Gym
-    </title>
-    <link href="../Styles/index.css" rel="stylesheet">
+    <head>
+        <title>
+            Contact
+        </title>
+        <!--Css koppeling-->
+        <link href="../Styles/index.css" rel="stylesheet">
 
-</head>
-<body>
-<nav>
-    <img id="logo" src="../Images/logo.png">
-    <?php
-    include "../../Website/Includes/functions.php";
-    ?>
-</nav>
-<img id= "contact" src="../Images/contact.png" alt="Contact pagina Foto">
-</body>
+    </head>
+    <body>
+        <nav>
+            <!--Logo van respectgym-->
+            <img id="logo" src="../Images/logo.png">
+            <?php
+            //Het menu word via een include in de pagina gezet
+            include "../../Website/Includes/menu.php";
+            ?>
+        </nav>
+        <!--Foto van de contact pagina van de echte respectgym website-->
+        <img id= "contact" src="../Images/contact.png" alt="Contact pagina Foto">
+    </body>
 </html>

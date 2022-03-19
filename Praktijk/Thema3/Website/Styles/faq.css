@@ -10,14 +10,18 @@
 }
 *
 {
+    /*Alle tekst krijgt het lettertype van Respectgym*/
     font-family: RespectGym;
 }
 
 
 body
 {
+    /*De achtergrondkleur is donkergrijs*/
+    background-color: #333333;
     margin: 0px;
 }
+/* Begin navigatie css code*/
 a
 {
     /*Decoratie bij de lijst is weg*/
@@ -28,6 +32,7 @@ a
 }
 a:hover
 {
+    /*Als je over het menu heen gaat veranderd de achtergrondkleur van de tekst naar oranje*/
     background-color: #f47e3c;
     padding: 10px;
 
@@ -35,6 +40,7 @@ a:hover
 li
 {
     list-style-type: none;
+    /*tekst word in het midden van de li gezet*/
     text-align: center;
     padding: 13px;
     object-position: center;
@@ -53,37 +59,106 @@ nav
 {
     object-position: center;
     background-color: black;
+    /*Grootte van de nav bar*/
     padding: 20px;
 }
+/*Einde navigatie code*/
+/*Respectgym logo*/
 #logo
 {
+    /*Hoogte en breedte van het logo*/
     width: 75px;
     height: 75px;
     float: left;
     position: absolute;
 }
-/* Style the buttons that are used to open and close the accordion panel */
-.faq {
-    background-color: #eee;
-    color: #444;
+/*Uitklaapbaar menu code*/
+
+h1
+{
+    /*Tekst word in het midden weergegeven*/
+    text-align: center;
+    color: white;
+}
+
+.faq
+{
+    width: 800px;
+    margin: 40px auto;
+    /*Tekst kleur is wit*/
+    color: white;
+    padding: 45px 45px;
+    text-align: center;
+}
+.container:hover
+{
+    /*Achtergrond kleur van de antwoorden zodra je de vraag openklapt*/
+    background-color: #f47e3c;
+}
+
+.faq .container
+{
+    position: relative;
+    margin: 10px 10px;
+}
+
+.faq .vraag
+{
+    position: relative;
+    padding: 10px 0;
+    /*Lettergrootte*/
+    font-size: 16px;
+    color: white;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .faq:hover {
-    background-color: #ccc;
+.faq .vraag::before
+{
+    /*Zet een plusje achter de tekst*/
+    content: '+';
+    /*de Plus  is wit*/
+    color: white;
+    position: absolute;
+    /*Positie van het plusje midden in de div*/
+    top: 50%;
+    /*Positie van het plusje*/
+    right: -5px;
+    /* grootte van de + en -*/
+    font-size: 30px;
+    transform: translateY(-50%);
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.answers {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
+.faq .antwoord
+{
+    position: relative;
+    /*Kleur oranje van respectgym*/
+    background: #f47e3c;
+    /*Zorgt ervoor dat de tekst niet zichtbaar is als het menu inklapt*/
+    height: 0;
+    font-size: 16px;
+    text-align: center;
+    /*Breedte van de vragen en antwoorden*/
+    width: 780px;
+    /*Als je niet op de vraag drukt blijft het antwoord onzichtbaar*/
     overflow: hidden;
+    transition: 0.5s;
+}
+
+.faq hr {
+    /*de lijn word over de gehele breedte van de div*/
+    width: 100%;
+    /*Dikte van de hr*/
+    height: 2px ;
+    /*Opmaak kleur van de hr*/
+    background-color: white;
+}
+
+.faq .container.active .antwoord {
+    height: 60px;
+}
+
+.faq .container.active .vraag::before {
+    /*Maakt van de + een -*/
+    content: '-';
+    font-size: 30px;
 }

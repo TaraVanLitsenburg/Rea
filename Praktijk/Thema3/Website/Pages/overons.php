@@ -7,20 +7,24 @@
 
 ?>
 <html lang="nl">
-<head>
+    <head>
     <title>
-        Respect Gym
+        Over ons
     </title>
+        <!--Css Koppeling-->
     <link href="../Styles/index.css" rel="stylesheet">
 
-</head>
-<body>
-<nav>
-    <img id="logo" src="../Images/logo.png">
-    <?php
-    include "../../Website/Includes/functions.php";
-    ?>
-</nav>
-<img id= "overons" src="../Images/overons.png" alt="Over ons Fotos">
-</body>
+    </head>
+    <body>
+        <nav>
+            <!--Logo van respectgym-->
+            <img id="logo" src="../Images/logo.png">
+            <?php
+            //Het menu word via een include in de pagina gezet
+            include "../../Website/Includes/menu.php";
+            ?>
+        </nav>
+        <!--Foto van de over ons pagina van de echte respectgym website-->
+        <img id= "overons" src="../Images/overons.png" alt="Over ons Fotos">
+    </body>
 </html>

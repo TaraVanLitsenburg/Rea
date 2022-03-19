@@ -16,9 +16,10 @@
     </head>
     <body>
         <nav>
+            <!--Logo van respectgym-->
             <img id="logo" src="Images/logo.png">
             <?php
-            include "../../Thema3/Website/Includes/functions.php";
+            include "../../Thema3/Website/Includes/menu.php";
             ?>
         </nav>
         <img id= "index" src="Images/index.png" alt="Index Fotos">

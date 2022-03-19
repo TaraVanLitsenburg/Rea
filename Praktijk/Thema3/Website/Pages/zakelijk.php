@@ -9,18 +9,22 @@
 <html lang="nl">
 <head>
     <title>
-        Respect Gym
+        Zakelijk
     </title>
+    <!--Css Koppeling-->
     <link href="../Styles/index.css" rel="stylesheet">
 
 </head>
-<body>
-<nav>
-    <img id="logo" src="../Images/logo.png">
-    <?php
-    include "../../Website/Includes/functions.php";
-    ?>
-</nav>
-<img id= "zakelijk" src="../Images/zakelijk.png" alt="Zakelijk Fotos">
-</body>
+    <body>
+        <nav>
+            <!--Logo van respectgym-->
+            <img id="logo" src="../Images/logo.png">
+            <?php
+            //Het menu word via een include in de pagina gezet
+            include "../../Website/Includes/menu.php";
+            ?>
+        </nav>
+        <!--Foto van de zakelijke pagina van de echte respectgym website-->
+        <img id= "zakelijk" src="../Images/zakelijk.png" alt="Zakelijk Fotos">
+    </body>
 </html>
