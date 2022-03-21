@@ -9,7 +9,7 @@ File: header.php
 <header>
     <h1>
         <?php
-            echo "Uitwerking oefening 4.2 van realiseren";
+            echo "Uitwerking oefening 4.3 van realiseren";
         ?>
     </h1>
 </header>

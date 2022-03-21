@@ -3,3 +3,49 @@
     Datum: 14-03-2022
     File: 4.3.css
 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+header
+{
+    background-color: #D8A7B1;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+    position: relative;
+}
+main
+{
+    height: 60%;
+    box-sizing: border-box;
+}
+
+main nav
+{
+    background-color: #E8B4B8;
+    width: 25%;
+    float: left;
+    height: 120%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+main section
+{
+    background-color: #EF7C8E;
+    height: 120%;
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+h1
+{
+    font-size: 30px;
+}

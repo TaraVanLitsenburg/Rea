@@ -42,5 +42,8 @@
             <li>
                 <a href="/Realiseren/Thema3/Hoofdstuk4/4.2"> Oefening 4.2</a>
             </li>
+            <li>
+                <a href="/Realiseren/Thema3/Hoofdstuk4/4.3"> Oefening 4.3</a>
+            </li>
         </ul>
 </nav>

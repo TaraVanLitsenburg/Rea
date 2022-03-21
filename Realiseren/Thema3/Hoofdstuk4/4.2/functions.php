@@ -60,3 +60,54 @@
     }
 
 ?>
+
+<!--uitwerking oefening 4.3
+taak 2-->
+<h3>
+    Taak 2
+</h3>
+<?php
+$unixtime = time();
+echo "<p>Tijd sinds 1970 is $unixtime</p>";
+
+?>
+
+<h3>
+    Taak 3
+</h3>
+<?php
+
+
+function priceChecking($car, $spared)
+{
+    $counter = 0;
+    while($car > $spared )
+    {
+        // ELke keer 30 euro van de kosten af
+        $cost = $car - $spared;
+        // Tellen vanaf
+        $counter = $counter + 1;
+
+        echo "Na " . $counter." maanden moet ik nog " . $car . "betalen.<br>";
+    }
+}
+priceChecking(1200, 30, 150);
+?>
+
+<h3>
+    Taak 4
+</h3>
+
+<?php
+//$height is een parameter
+    function createPiramid($height)
+    {
+        for ($i=0; $i < $height; $i = $i+1)
+        {
+            for ($j=0; $j< $i; $j = $j+1)
+            {
+                echo "$j";
+            }
+            echo "*<br>";
+        }
+    }
