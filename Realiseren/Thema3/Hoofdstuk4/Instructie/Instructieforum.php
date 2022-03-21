@@ -16,7 +16,7 @@
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/style.css" rel="stylesheet">
+        <!--<link href="styles/style.css" rel="stylesheet">-->
     </head>
     <body>
         <header>
@@ -41,10 +41,29 @@
                 <!-- Plaats je code / uitwerking hieronder -->
                 <!-- Formulier maken-->
                 <form method="get" action="instructieforms_results.php">
-                    <label>
+                    <label for = "naam">
                         Naam:
                     </label>
-                    <input type="text" name="naam">
+                    <input type="text" name="naam" id = "naam">
+                    <!--verzend knop-->
+                    <br>
+                    <label for = "achternaam">
+                        Achternaam:
+                    </label>
+                    <input type="text" name="achternaam" id = "achternaam">
+                    <!--verzend knop-->
+                    <!--<input type="submit">-->
+
+                    <p>
+                        Wil je naar huis?
+                    </p>
+
+                    <label><input type="radio" name = "huis" value="ja naar huis">Ja naar huis</label>
+                    <label><input type="radio" name = "huis" value="nee  we gaan nog niet naar huis">Nee we gaan nog niet naar huis</label>
+                    <br>
+                    <input type="submit">
+
+
                 </form>
             </section>
         </main>
