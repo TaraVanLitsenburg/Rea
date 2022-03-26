@@ -1,0 +1,55 @@
+/*
+ * Naam: Tara van Litsenburg
+ * Datum: 23-03-2022
+ * file: 5.1.php
+*/
+body
+{
+    background-color: darkgray;
+
+}
+hr
+{
+    height: 5px;
+    color: black;
+    background-color: black;
+}
+p:not(#succesclass)
+{
+    margin: 20px;
+}
+#leerjaar
+{
+    margin-top: 30px;
+}
+label
+{
+    bottom: 25px;
+    display: inline-block;
+    float: left;
+    width: 200px;
+
+}
+label.leerjaar1
+{
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 120px;
+}
+label.leerjaar2, label.leerjaar3, label.leerjaar4
+{
+    display: inline-block;
+    width: 120px;
+    padding-bottom: 10px;
+}
+.succesclass
+{
+    width: 50vw;
+    padding-bottom: 20px;
+}
+#button
+{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 5px;
+}
