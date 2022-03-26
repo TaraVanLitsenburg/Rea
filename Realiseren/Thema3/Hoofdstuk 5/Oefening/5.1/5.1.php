@@ -21,8 +21,8 @@
         <hr>
         <form method="get" action="5.1_Results.php">
             <p>
-                <label for = "naam">Voor en Achternaam </label>
-                <input type="text" name="naam" id = "naam">
+                <label for = "voornaam">Voor en Achternaam </label>
+                <input type="text" name="voornaam" id = "voornaam">
             </p>
             <!--Aantal personen-->
             <p>
