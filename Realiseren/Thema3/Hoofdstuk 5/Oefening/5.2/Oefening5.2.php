@@ -11,6 +11,7 @@
         <title>
             Oefening 5.2
         </title>
+        <!--CSS koppeling-->
         <link href="Styles/5.2.css" type="text/css" rel="stylesheet">
     </head>
     <body>
@@ -26,6 +27,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!--Inlog username-->
                     <td>
                         Username
                     </td>
@@ -35,12 +37,7 @@
                 </tr>
 
                 <tr>
-                    <td>
-                        Password
-                    </td>
-                    <td>
-                        <input type="password">
-                    </td>
+                    <!--Wachtwoord-->
                 </tr>
                 <tr>
                     <td>
