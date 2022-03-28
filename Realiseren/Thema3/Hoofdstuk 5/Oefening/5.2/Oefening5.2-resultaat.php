@@ -4,16 +4,16 @@
  * Datum: 26-03-2022
  * File: Oefening5.2-resultaat.php
 */
-$username = "Tara van Litsenburg";
+$username = "TaravanLitsenburg";
 $password = "zelfverzonnen";
 
-if ($username == "Tara van Litsenburg" and $password == "zelfverzonnen")
+if ($username  == $_POST["inlognaam"] and $password == $_POST["wachtwoord"])
 {
-    echo "Username and/or Password is incorrect";
+    echo "<img src='../5.2/Images/Schatkist.png'>";
 }
 else
 {
-    echo "<img src='../5.2/Images/Schatkist.png'>";
+    echo "Username and/or Password is incorrect";
 }
 ?>
 <link href="Styles/5.2.css" type="text/css" rel="stylesheet">

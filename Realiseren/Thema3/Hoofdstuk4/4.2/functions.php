@@ -24,7 +24,7 @@
                 echo "<a>U mag doorrijden</a>";
             }
             // Er komt geen ambulance aan
-            echo "<a>Er komt geen ambulance aan u kunt door rijden</a>";
+            //echo "<a>Er komt geen ambulance aan u kunt door rijden</a>";
         }
         else
         {
@@ -63,18 +63,13 @@
 
 <!--uitwerking oefening 4.3
 taak 2-->
-<h3>
-    Taak 2
-</h3>
+
 <?php
 $unixtime = time();
 echo "<p>Tijd sinds 1970 is $unixtime</p>";
 
 ?>
 
-<h3>
-    Taak 3
-</h3>
 <?php
 
 
@@ -91,12 +86,10 @@ function priceChecking($car, $spared)
         echo "Na " . $counter." maanden moet ik nog " . $car . "betalen.<br>";
     }
 }
-priceChecking(1200, 30, 150);
+//priceChecking(1200, 30, 150);
 ?>
 
-<h3>
-    Taak 4
-</h3>
+
 
 <?php
 //$height is een parameter

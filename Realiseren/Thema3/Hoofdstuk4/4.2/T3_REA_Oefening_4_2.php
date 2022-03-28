@@ -28,7 +28,7 @@
         <h2>Taak 2 - Stoplichten</h2>
         <?php
             $ambulance = false; //Boolean
-            $lights = "red"; //String
+            $lights = "green"; //String
             checkTrafficLights($ambulance, $lights);
         ?>
         <br><hr>

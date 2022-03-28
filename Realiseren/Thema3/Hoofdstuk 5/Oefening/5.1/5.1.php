@@ -69,8 +69,8 @@
             </p>
             <br>
             <p>
-                <label class = "succesclass"><input type="checkbox" value="succesklas">Ik wil me aanmelden bij de succesklas</label>
-                <label class = "succesclass"><input type="checkbox" value="gegevens">Verwijder mijn gegevens uit het systeem</label>
+                <label for = "succesclass" class = "succesclass"><input type="checkbox" id = "succesclass" value="succesklas">Ik wil me aanmelden bij de succesklas</label>
+                <label for = "succesclass" class = "succesclass"><input type="checkbox" id = "gegevens" value="gegevens">Verwijder mijn gegevens uit het systeem</label>
             </p>
             <br>
             <p>

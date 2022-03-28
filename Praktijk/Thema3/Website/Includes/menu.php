@@ -19,5 +19,5 @@
         <li><a href="/Praktijk/Thema3/Website/Pages/lidworden.php">Lid worden</a></li>
         <li><a href="/Praktijk/Thema3/Website/Pages/zakelijk.php">Zakelijk</a></li>
         <li><a href="/Praktijk/Thema3/Website/Pages/contact.php">Contact</a></li>
-        <li><a href="/Praktijk/Thema3/Website/Pages/faq.php">FAQ</a></li>
+        <li><a href="../Pages/faq.php">FAQ</a></li>
     </ul>

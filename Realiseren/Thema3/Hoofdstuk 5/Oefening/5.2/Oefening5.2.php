@@ -32,10 +32,17 @@
                         Username
                     </td>
                     <td>
-                        <input type="text">
+                        <input type="text" name="inlognaam">
                     </td>
                 </tr>
-
+                <tr>
+                    <!--Inlog username-->
+                    <td>
+                        Password
+                    <td>
+                        <input type="password" name="wachtwoord">
+                    </td>
+                </tr>
                 <tr>
                     <!--Wachtwoord-->
                 </tr>
